@@ -45,7 +45,7 @@ const initialState = { message: null, errors: {} };
           </div>
           <div id="customer-error" aria-live="polite" aria-atomic="true">
                 {state.errors?.customerId &&
-                 state.errors.customerId.map((error: stirng) => (
+                 state.errors.customerId.map((error: string) => (
                   <p className="mt-2 text-sm text-red-500" key={error}>
                     {error}
                   </p>
